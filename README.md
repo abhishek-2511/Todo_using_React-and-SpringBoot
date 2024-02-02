@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# TodoList Application with React Hooks and Spring Boot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple TodoList application developed using React with hooks for the frontend and Spring Boot for the backend. It allows users to manage their daily tasks by providing features such as task creation, updating, deletion, and marking tasks as completed.
 
-## Available Scripts
+## Prerequisites
 
-In the project directory, you can run:
+Make sure you have the following tools installed before running the application:
 
-### `npm start`
+- Node.js and npm
+- Java Development Kit (JDK)
+- IDE (such as IntelliJ or Eclipse)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Frontend Dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `react` (version 18.2.0)
+- `react-dom` (version 18.2.0)
+- `react-icons` (version 5.0.1)
+- `react-scripts` (version 5.0.1)
 
-### `npm test`
+## Project ScreenShot 
+1.![Screenshot 2024-02-02 163529](https://github.com/abhishek-2511/Taskify-TODO-App/assets/91653172/08995989-4fc9-49a4-8c4c-db13c614628b)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2.![Screenshot 2024-02-02 163506](https://github.com/abhishek-2511/Taskify-TODO-App/assets/91653172/a528cec1-fbb3-45d5-af5c-eef2bdaaf938)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/yourusername/spring-boot-react-todo-app.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Run the React app
 
-### `npm run eject`
+  command - npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Run the Spring Boot app:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    bash
+    ./mvnw spring-boot:run
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Access the application at http://localhost:3000
