@@ -31,7 +31,7 @@ Make sure you have the following tools installed before running the application:
 
 2. Run the React app
 
-  command - npm start
+     command - npm start
 
 3. Run the Spring Boot app:
 
